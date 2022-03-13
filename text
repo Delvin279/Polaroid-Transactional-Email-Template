@@ -1,0 +1,84 @@
+style=" border-bottom: 1px solid #e5e5e5;"
+
+
+<!-- left table starts -->
+                                        <table class="left-column" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 0;">
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 600; color:#000404;">
+                                                    Shipping address
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    D. Williams
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    600 Visual Studio St
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    Albany, GA 94111
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    United States
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="padding-top: 10px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 600; color:#000404;">
+                                                    Shipping method
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    Free shipping
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- left table ends -->
+
+                                        <!-- right table starts -->
+                                        <table class="right-column" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 0; background: #ffffff;">
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 600; color:#000404;">
+                                                    Billing address
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    D. Williams
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    600 Visual Studio St
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    Albany, GA 94111
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    United States
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="padding-top: 10px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 600; color:#000404;">
+                                                    Payment method
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; color:#000404;">
+                                                    Amazon - $130.50
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- right table ends -->
+
+<td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #333333; font-weight: 600; font-size: 14px; padding: 0 15px 0 15px; margin: 0;">Share</td>

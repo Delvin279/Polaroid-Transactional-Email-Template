@@ -15,20 +15,38 @@
 	<![endif]-->
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-		body { background-color: #000000; margin: 0px; padding:0px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px; font-weight: 500; color:#000404; }
+		body { background-color: #000000; margin: 0px; padding:0px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px; font-weight: 500; color:#001d1d; }
         .hm { display: block; }
 		
 		@media only screen and (max-width:600px){
-            .image { width:100%!important; height:auto!important; }
-			.container { width:480px!important; }
-			.db { display: block!important; }
-			.dw { width:100%!important; min-width:100%!important; max-width:100%!important; }
-			.hm { display: none!important; font-size:0px!important; visibility:hidden; }
+            .container{ 
+                width:100% !important;
+            } 
         }
 		
         
-        @media only screen and (max-width:480px){
-            .container { width:95%!important; }
+        @media only screen and (max-width:300px){
+            .container{ 
+                width:100% !important; 
+            }
+            .customer-info td{
+                text-align: center !important;
+            }
+            .customer-info .customer-tables .left-column{
+                width: 100% !important;  
+            }
+            .customer-info .customer-tables .right-column{
+                width: 100% !important;
+                padding: 30px 0 0 0 !important;
+            }
+            .header-text{
+                text-align: center !important;
+            }
+            .terms{
+                width: 100% !important;
+                text-align: center !important;
+                padding: 30px 20px !important;
+            }
         }
     </style>
 	
@@ -39,219 +57,205 @@
         <tr>
             <td align="center">
                 <!-- start of email -->
-                <table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" class="container">
+                <table class="container" width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
 
-                    <!-- header image -->
+                    <!-- start of header image -->
                     <tr>
-                        <td align="center"> 
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <td> 
+                            <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 30px 0 30px;">
                                 <tr>
-                                    <td align="center">
-
+                                    <td>
                                         <a href="https://us.polaroid.com/" target="_blank">
-
-                                            <img src="https://i.ibb.co/YNkVBDf/thanks-for-your-order-02.jpg" width="540" height="500" style="display: block; border: none;" alt="polaroid header image" class="image">
+                                            <img src="https://i.ibb.co/YNkVBDf/thanks-for-your-order-02.jpg" width="540" height="500" style="display: block; border: 0; height: auto; max-width: 100%;"alt="polaroid header image">
                                         </a>
-
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <!-- header image -->
+                    <!-- end of header image -->
 
-                     <!-- header text -->
+                     <!-- start of header text -->
                     <tr>
-                        <td align="center">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                        <td align="center" style="font-family: 'Roboto', Arial, Helvetica, sans-serif;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 35px 30px 0 30px; background: #ffffff;">
                                 <tr>
-                                    <td align="left" style="padding-top: 30px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 150%; font-weight: 500; color:#333333;">
-                                        We're on it.
+                                    <td align="left">
+                                        <h2 style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 1; font-weight: 500; color:#333333; margin: 0;">
+                                            We're on it.
+                                        </h2>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-top: 20px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        Hey D. Williams,
+                                    <td align="left">
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0;">
+                                            Hey D. Williams,
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-top: 15px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                    This is just a quick email to say we've received your order.
+                                    <td align="left">
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 15px; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0;">
+                                            This is just a quick email to say we've received your order.
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-top: 15px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        Once everything is confirmed and ready to ship, we'll send you another email with the tracking details and any other information about your package.
+                                    <td align="left">
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 15px; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0;">
+                                            Once everything is confirmed and ready to ship, we'll send you another email with the tracking details and any other information about your package.
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-top: 15px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        You shipping ETA applies from the time you receive that email, which should be about one working day from now. We'll follow up as quickly as possible!
+                                    <td align="left">
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 15px; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0;">You shipping ETA applies from the time you receive that email, which should be about one working day from now. We'll follow up as quickly as possible!</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-top: 15px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        In the meantime, if you have any questions, send us an email at
-                                        <a href="usa@polaroid.com." target="_blank" style="color: #a5a5a5;">usa@polaroid.com.</a> and we'll be happy to help.
+                                    <td align="left">
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 15px; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0;">In the meantime, if you have any questions, send us an email at <a href="usa@polaroid.com." target="_blank" style="color: #a5a5a5;">usa@polaroid.com.</a> and we'll be happy to help.
+                                        </p>
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- header text -->
-
-                    <!-- cta starts -->
-                    <tr>
-                        <td align="center" style="padding: 20px 0px 20px;">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td align="center">
-                                        <table width="200" border="0" cellspacing="0" cellpadding="0" style="background-color: #000000; border: none;">
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 30px 0 50px 0;">
                                             <tr>
-
-                                                <td align="center" style="padding: 10px 0px; font-size: 14px; line-height: 150%; font-weight: bold; color:#000404;">
-                                                    <a href="https://us.polaroid.com/" target="_blank" style="font-size: 14px; text-decoration: none; line-height: 150%; font-weight: 500; color:#ffffff;">
+                                                <td align="center">
+                                                    <a href="https://us.polaroid.com/" target="_blank" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 14px; text-decoration: none; line-height: 1.5; border-radius: 3px; font-weight: 500; color:#ffffff; background-color: #000000; padding: 15px 25px; border: 0;">
                                                         View your order
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
                                     </td>
-                                   
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <!-- cta ends -->
+                    <!-- end of header text -->
 
                     <!-- divider -->
                     <tr>
-                        <td style="border-top: 1px solid #e5e5e5; padding-top: 30px;">
-                        </td>
-                    </tr>
+                        <td height="1" style="background-color: #e5e5e5;"></td>
+                     </tr>
                     <!-- divider -->
 
-                    <!-- table heading starts -->
+                    <!-- order section starts -->
                     <tr>
-                        <td align="center" style="padding-top: 10px;">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                        <td>
+                            <h3 align="left" style=" font-family: 'Roboto', Arial, Helvetica, sans-serif;font-size: 16px; line-height: 1; font-weight: 500; color:#333333; padding: 0 30px 0 30px; margin: 0; padding: 30px 30px 10px 30px;">
+                                Order UD650050 summary
+                            </h3>
+                            <!-- order summary starts -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 30px 0 30px;background: #ffffff;">
                                 <tr>
-                                    <td align="left" style="font-size: 16px; line-height: 150%px; font-weight: 500; color:#333333;">Order UD650050 summary
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- table heading ends -->
-
-                    <!-- camera 1 starts -->
-                    <tr>
-                        <td align="center">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0" style=" border-bottom: 1px solid #e5e5e5;">
-                                <tr>
-                                    <td align="left">
-                                        <img src="https://i.ibb.co/hWJQ3S1/now-white-polaroid-camera-009027-front-tilted-a11480cb-5e0a-4c7c-bf74-9aba7d99ad2f-1024x1024.png" width="50" height="50" style="border: none;" alt="camera">
-                                    </td>
-
-                                    
-
-                                    <td width=373 align="left" style="font-size: 14px; line-height: 140%; font-weight: 500; color:#000404;">
-                                        OneStep 2 i-Type Camera x 1
-                                    </td>
-
-                                   
-
-                                    <td width="100" align="right" style="font-size: 13px; line-height: 140%; color: #818181; font-weight: 600;">
-                                        $99.99
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- camera 1 ends -->
-
-                     <!-- camera 2 starts -->
-                     <tr>
-                        <td align="center">   
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0" style="border-bottom: 1px solid #e5e5e5">
-                                <tr> 
-                                    <td align="left">
-                                        <img src="https://i.ibb.co/qrPNK95/i-Type-BW-black-frame-x3-1024x1024.png" width="50" height="50" style="border: none;" alt="film pack">
-                                    </td>
-
-                               
-
-                                    <td width="373" align="left" style="font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        i-Type Blackout Film Triple Pack x 1
-                                    </td>
-
-                                    
-
-                                    <td width="100" align="right" style="font-size: 13px; line-height: 150%; color: #818181; font-weight: 600;">
-                                        $45.00
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- camera 2 ends -->
-
-                    <!-- discount starts -->
-                    <tr>
-                        <td align="center">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td align="right" style="padding-top: 20px;">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom: 1px solid #e5e5e5; padding-bottom: 10px;">
+                                    <td>
+                                        <table align="left" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 10px 0 40px 0;">
                                             <tr>
-                                                <td width="108" align="left" style="font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Discount (ORIGINAL10)
+                                                <td align="left" valign="top" width="50">
+                                                    <img src="https://i.ibb.co/hWJQ3S1/now-white-polaroid-camera-009027-front-tilted-a11480cb-5e0a-4c7c-bf74-9aba7d99ad2f-1024x1024.png" width="50" height="50" style="border: 0;" alt="camera image">
                                                 </td>
-
-                                                <td width=162 align="right" style="font-size: 11px; line-height: 150%; color: #818181; font-weight: 600;">
-                                                    $-14.49
+                                                <td align="left" valign="middle" width="200">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0; padding: 8px;">
+                                                        OneStep 2 i-Type Camera x 1
+                                                    </p>
+                                                </td>
+                                                <td align="right" valign="top" width="60">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.5; color: #818181; font-weight: 600; margin: 0; padding: 8px 0 8px;">
+                                                        $99.99
+                                                    </p>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td width="108" align="left" style="padding-top: 20px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Subtotal
+                                                <td align="left" valign="top" width="50">
+                                                    <img src="https://i.ibb.co/qrPNK95/i-Type-BW-black-frame-x3-1024x1024.png" width="50" height="50" style="border: 0;" alt="film image">
                                                 </td>
-
-                                                <td width=162 align="right" style="padding-top: 20px; font-size: 11px; line-height: 150%; color: #818181; font-weight: 600;">
-                                                    $130.50
+                                                <td align="left" valign="middle" width="200">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0; padding: 8px;">
+                                                        i-Type Blackout Film Triple Pack x 1
+                                                    </p>
                                                 </td>
-
-                                            </tr>
-                                            <tr>
-                                                <td width="108" align="left" style="padding-top: 20px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Shipping
-                                                </td>
-
-                                                <td width=162 align="right" style="padding-top: 20px; font-size: 11px; line-height: 150%; color: #818181; font-weight: bolder;">
-                                                    $0.00
+                                                <td align="right" valign="top" width="60">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.5; color: #818181; font-weight: 600; margin: 0; padding: 8px 0 8px;">
+                                                        $45.00
+                                                    </p>
                                                 </td>
                                             </tr>
                                         </table>
+                                        <!-- order summary ends -->
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- discount ends -->
-
-                    <!-- total starts -->
-                    <tr>
-                        <td align="center" style="padding-top: 20px; padding-bottom: 20px;">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td align="left">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <td>
+                                        <!-- discount original starts -->
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0 0 20px 0;">
                                             <tr>
-                                                <td align="left" style=" font-size: 13px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Total
+                                                <td align="left" valign="middle" width="200">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; font-weight: 500; color:#000404; margin: 0; padding: 0;">
+                                                        Discount (ORIGINAL10)
+                                                    </p>
                                                 </td>
-                                                <td align="right" style=" font-size: 16px; line-height: 150%; font-weight: 600; color:#555555;">
-                                                    $130.50 USD
+            
+                                                <td width=60 align="right" valign="top">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 11px; line-height: 1.5; color: #818181; font-weight: 600; margin: 0;">
+                                                        $-14.49
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" width="200">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404; margin: 0;">
+                                                        Subtotal
+                                                    </p>
+                                                </td>
+            
+                                                <td align="right" width=60>
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 11px; line-height: 150%; color: #818181; font-weight: 600; margin: 0;">
+                                                        $130.50
+                                                    </p>
+                                                </td>
+            
+                                            </tr>
+                                            <tr>
+                                                <td align="left" width="200">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404; margin: 0;">
+                                                        Shipping
+                                                    </p>
+                                                </td>
+            
+                                                <td align="right" width=60>
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 11px; line-height: 150%; color: #818181; font-weight: bolder; margin: 0;">
+                                                        $0.00
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- discount original starts -->
+                                    </td>
+                                </tr>
+                                <!-- order section ends -->
+
+                                <!-- line starts -->
+                                <tr>
+                                    <td height="1" style="background-color: #e5e5e5;"></td>
+                                 </tr>
+                                 <!-- line ends -->
+
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 0 20px 0;">
+                                            <tr>
+                                                <td align="left">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                        Total
+                                                    </p>
+                                                </td>
+                                                <td align="right">
+                                                    <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.5; margin: 0;font-weight: 600; color:#555555;">
+                                                        $130.50 USD
+                                                    </p>
                                                 </td>
                                             </tr> 
                                         </table>
@@ -260,109 +264,136 @@
                             </table>
                         </td>
                     </tr>
-                    <!-- total ends -->
+                    <!-- order section ends -->
 
                     <!-- divider -->
                     <tr>
-                        <td style="border-top: 1px solid #e5e5e5; padding-top: 30px;">
-                        </td>
-                    </tr>
+                        <td height="1" style="background-color: #e5e5e5;"></td>
+                     </tr>
                     <!-- divider -->
-
-                    <!-- info header  -->
-                    <tr>
-                        <td align="center">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td align="left" style="padding-bottom: 10px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 150%; font-weight: 500; color:#000404;">
-                                        <span style="white-space: nowrap;">Customer information</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <!-- info header  -->
 
                     <!-- customer info starts -->
                     <tr>
-                        <td align="center">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                        <td style="font-family: 'Roboto', Arial, Helvetica, sans-serif;">
+                            <table class="customer-info" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 30px 30px; background: #ffffff;">
                                 <tr>
-                                    <td width="50%">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 600; color:#000404;">
-                                                    Shipping address
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    D. Williams
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    600 Visual Studio St
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Albany, GA 94111
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    United States
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="padding-top: 10px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 600; color:#000404;">
-                                                    Shipping method
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Free shipping
-                                                </td>
-                                            </tr>
-                                        </table>
+                                    <td>
+                                        <h3 class="header-text" align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1; font-weight: 500; color:#333333; padding: 0; margin: 0; padding: 0 0 20px 0;">
+                                            Customer information
+                                        </h3>
                                     </td>
-                                    <!-- <td width="20" height="20">&nbsp;</td> -->
-                                    <td width="50%">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="customer-tables" align="left" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 0; background: #ffffff;">
                                             <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 600; color:#000404;">
-                                                    Billing address
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    D. Williams
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    600 Visual Studio St
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Albany, GA 94111
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    United States
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="padding-top: 10px; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 600; color:#000404;">
-                                                    Payment method
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 150%; font-weight: 500; color:#000404;">
-                                                    Amazon - $130.50
+                                                <td>
+                                                    <table class="left-column" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 0;">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <h4 style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 600; color:#000404;">
+                                                                    Shipping address
+                                                                </h4>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    D. Williams
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    600 Visual Studio St
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    Albany, GA 94111
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    United States
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 10px; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 600; color:#000404;">
+                                                                    Shipping method
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    Free shipping
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- left table ends -->
+            
+                                                    <!-- right table starts -->
+                                                    <table class="right-column" align="left" width="50%" border="0" cellspacing="0" cellpadding="0" style="padding: 0; background: #ffffff;">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <h4  style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 600; color:#000404;">
+                                                                    Billing address
+                                                                </h4>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p  style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    D. Williams
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    600 Visual Studio St
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    Albany, GA 94111
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    United States
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; padding-top: 10px; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 600; color:#000404;">
+                                                                    Payment method
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; margin: 0; font-weight: 500; color:#000404;">
+                                                                    Amazon - $130.50
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- right table ends -->
                                                 </td>
                                             </tr>
                                         </table>
@@ -375,24 +406,25 @@
 
                     <!-- divider -->
                     <tr>
-                        <td style="border-bottom: 1px solid #e5e5e5; padding-top: 30px;">
-                        </td>
-                    </tr> 
+                        <td height="1" style="background-color: #e5e5e5;"></td>
+                     </tr>
                     <!-- divider -->
 
-                    <!-- tc -->
+                    <!-- tc starts -->
                     <tr>
-                        <td align="center" style="padding-top: 25px;">
-                            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                        <td>
+                            <table class="terms" align="left" width="100%" border="0" cellspacing="0" cellpadding="0" style="padding: 30px 50px 40px; background:#ffffff;">
                                 <tr>
-                                    <td align="left" style="padding-bottom: 60px; font-size: 12px; line-height: 150%; font-weight: 500; color:#818181;">
-                                        Polaroid, Polaroid Classic Border Logo, Polaroid OneStep, and Polaroid Originals Design are tardemarks of PLR IP Holdings, LLC. PLR IP Holdings, LLC does not manufacture this product or provide any Manufacturer's Warranty or support.
+                                    <td>
+                                        <p style="font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; font-weight: 500; margin: 0; color:#818181;">
+                                            Polaroid, Polaroid Classic Border Logo, Polaroid OneStep, and Polaroid Originals Design are tardemarks of PLR IP Holdings, LLC. PLR IP Holdings, LLC does not manufacture this product or provide any Manufacturer's Warranty or support.
+                                        </p>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <!-- tc -->
+                    <!-- tc ends -->
 
 
 
@@ -407,7 +439,6 @@
                 </table>
                 <!-- end of emai -->
             </td>
-            <td height="10px">&nbsp;</td>
         </tr>
     </table>
 </body>
